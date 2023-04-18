@@ -1,0 +1,139 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.introducao {
+    background-image: url(../img/Banner\ para\ loja\ online\ frete\ grátis\ mercado\ shops\ médio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 50px 50px rgba(0, 0, 0, .5);
+}
+
+.text-intro {
+    width: 30%;
+    height: 50%;
+    font-family: 'Bebas Neue';
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-intro h1 {
+    font-size: 10rem;
+    color: #9D2212;
+}
+
+.text-intro p {
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 550;
+}
+
+.poemas {
+    width: 100%;
+    height: 100%;
+}
+
+.poemas .titulogeral {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: 'Dancing Script';
+}
+
+.poemas ul {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista {
+    width: 90%;
+    height: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloco-de-poema {
+    width: 25%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.bloco-de-poema button {
+    background-color: #9D2212;
+    width: 80%;
+    height: 90px;
+    border-radius: 100px;
+    font-family: 'Bebas Neue';
+    font-size: 1.3rem;
+}
+
+.bloco-de-poema button:hover {
+    background-color: #000;
+    font-size: 1.6rem;
+    color: #fff;
+    transition: .5s;
+}
+
+.poema {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 10px 90px 10px;
+    font-family: 'Dancing Script';
+}
+
+.poema h1 {
+    font-size: 3rem;
+    color: #9D2212;
+}
+
+.poema p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.open {
+    height: 60%;
+    transition: 1s ease-in-out;
+    background-color: #3F3F3F;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, .5);
+}
+
+.show {
+    display: flex;
+    background-color: #3F3F3F;
+    transition: 1s ease-in-out;
+}
+
+@media screen and (max-width:730px) {
+    .text-intro {
+        width: 90%;
+    }
+    
+    .bloco-de-poema {
+        width: 100%;
+    }
+}
