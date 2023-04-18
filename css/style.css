@@ -130,10 +130,21 @@ body {
 
 @media screen and (max-width:530px) {
     .text-intro {
-        width: 90%;
+        width: 90%
+    }
+    
+    .text-intro h1 {
+        font-size: 8rem;
+    }
+    
+    .text-intro p {
+        font-size: 1.2rem;
     }
     
     .bloco-de-poema {
         width: 100%;
     }
+    
+    .poema {
+        padding: 10px 10px 20px 10px;
 }
